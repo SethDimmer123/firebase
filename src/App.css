@@ -39,3 +39,14 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.logout__button{
+  width:20px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #7645d9;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
