@@ -10,7 +10,6 @@ signOut,
 
 function App() {
   const [user,setUser] = React.useState({})
-  const [show,setShow] = React.useState(true)
 
 
 
@@ -37,10 +36,7 @@ function App() {
 
     function logout() {
       signOut(auth);
-
-    }
-    function changeState() {
-      setShow(!show);
+      
     }
 
   
